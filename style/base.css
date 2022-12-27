@@ -1,0 +1,28 @@
+/* Font start */
+@font-face {
+	font-family: 'ALS Schlange Sans';
+	src: local('ALS Schlange Sans Bold'), local('ALS-Schlange-Sans-Bold'),
+			url('../font/ALSSchlangesans-Bold.woff2') format('woff2'),
+			url('..//font/ALSSchlangesans-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+/* Font end */
+
+/* Colors start */
+:root {
+	--color-blue: #0071FC;
+	--color-green: #24BD3A;
+	--color-orange: #FFC200;
+	--color-purple: #D23EEA;
+	--color-pink: #FE0080;
+	--color-white: #FDFDFD;
+}
+/* Colors end */
+
+/* Body start */
+body {
+	background-color: var(--color-white);
+	font-family: 'ALS Schlange Sans';
+}
+/* Body end */
